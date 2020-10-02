@@ -10,12 +10,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: ArchiveFiles@2
+- task: 
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: true
 - task: PublishBuildArtifacts@1
-- task: ExtractFiles@1
-  inputs:
-    archiveFilePatterns: '**/*.zip'
-    cleanDestinationFolder: true
+
