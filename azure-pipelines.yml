@@ -18,5 +18,5 @@ steps:
 - task: ExtractFiles@1
   inputs:
     archiveFilePatterns: '**/*.zip'
-    DestinationFolder: /C/inetpub/wwwroot/
+    DestinationFolder: /wwwroot/
     cleanDestinationFolder: true
