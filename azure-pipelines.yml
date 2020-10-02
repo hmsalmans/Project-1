@@ -17,6 +17,6 @@ steps:
 - task: PublishBuildArtifacts@1
 - task: ExtractFiles@1
   inputs:
-    archiveFilePatterns: 'test/*.zip'
+    archiveFilePatterns: '**/*.zip'
     DestinationFolder: /C/inetpub/wwwroot/
     cleanDestinationFolder: true
