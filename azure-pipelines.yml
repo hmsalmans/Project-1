@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: 
+- task: CopyPublishBuildArtifacts@1
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: true
