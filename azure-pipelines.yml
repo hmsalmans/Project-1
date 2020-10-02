@@ -18,5 +18,5 @@ steps:
 - task: ExtractFiles@1
   inputs:
     archiveFilePatterns: '**/*.zip'
-    DestinationFolder: /wwwroot/
+    destinationFolder: 'C:\Users\Administrator\Desktop\agentProj-1'
     cleanDestinationFolder: true
