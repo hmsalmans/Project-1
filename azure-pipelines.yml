@@ -18,5 +18,5 @@ steps:
 - task: ExtractFiles@1
   inputs:
     archiveFilePatterns: '**/*.zip'
-    destinationFolder: 'C:\Users\Administrator\Desktop\agentProj-1'
+    destinationFolder: 'C:\Users\Administrator\Desktop\letsee'
     cleanDestinationFolder: true
