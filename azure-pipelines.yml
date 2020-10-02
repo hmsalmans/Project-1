@@ -15,3 +15,8 @@ steps:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: true
 - task: PublishBuildArtifacts@1
+- task: ExtractFiles@1
+  inputs:
+    archiveFilePatterns: 'test/*.zip'
+    DestinationFolder: /C/inetpub/wwwroot/
+    cleanDestinationFolder: true
