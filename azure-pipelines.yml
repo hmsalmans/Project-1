@@ -14,9 +14,4 @@ steps:
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: true
-- task: ExtractFiles@1
-  inputs:
-    archiveFilePatterns: '**/*.zip'
-    DestinationFolder: '$(build.sourcesDirectory)'  
-    cleanDestinationFolder: true  
 - task: PublishBuildArtifacts@1
